@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":rebaseStalePrs", ":semanticCommits"],
+  "extends": ["config:base", ":dependencyDashboard", ":rebaseStalePrs", ":semanticCommits"],
   "assignees": ["Daniele-Tentoni"],
   "automerge": true,
   "dependencyDashboard": true,
